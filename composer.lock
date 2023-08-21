@@ -4,8 +4,48 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e17b4de0951f7d8095f23ed30886d120",
+    "content-hash": "cea746b6924156097f912f620edc998d",
     "packages": [
+        {
+            "name": "phpolar/property-injector-contract",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpolar/property-injector-contract.git",
+                "reference": "77b00a75c5029a7e5485a016643419d882f3dcab"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpolar/property-injector-contract/zipball/77b00a75c5029a7e5485a016643419d882f3dcab",
+                "reference": "77b00a75c5029a7e5485a016643419d882f3dcab",
+                "shasum": ""
+            },
+            "suggest": {
+                "phpolar/property-injector": "A property injection implementation"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Phpolar\\PropertyInjectorContract\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Eric Fortmeyer",
+                    "email": "e.fortmeyer01@gmail.com"
+                }
+            ],
+            "description": "Unifies property injector implementations.",
+            "support": {
+                "issues": "https://github.com/phpolar/property-injector-contract/issues",
+                "source": "https://github.com/phpolar/property-injector-contract/tree/1.0.0"
+            },
+            "time": "2023-08-21T16:09:08+00:00"
+        },
         {
             "name": "psr/container",
             "version": "2.0.2",

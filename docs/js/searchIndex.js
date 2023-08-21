@@ -53,7 +53,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Phpolar\\PropertyInjector\\PropertyInjector\u003A\u003Ainject\u0028\u0029",
             "name": "inject",
-            "summary": "Attempts\u0020to\u0020inject\u0020the\u0020dependency\u0020into\nthe\u0020marked\u0020property\u0020using\u0020the\u0020configured\ndependency\u0020id.",
+            "summary": "\u007B\u0040inheritdoc\u007D",
             "url": "classes/Phpolar-PropertyInjector-PropertyInjector.html#method_inject"
         },                {
             "fqsen": "\\",
