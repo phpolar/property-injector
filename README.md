@@ -55,7 +55,9 @@ $injectee = new Example1();
 $injectee->property === $psr11Container->get("DEPENDENCY_ID"); // true
 ```
 
-### Thresholds
+## [API Documentation](https://phpolar.github.io/property-injector/)
+
+## Thresholds
 
 |Source Code Size * |Memory Usage|
 |-------------------|------------|
