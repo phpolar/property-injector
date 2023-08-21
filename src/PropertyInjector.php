@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Phpolar\PropertyInjector;
 
+use Phpolar\PropertyInjectorContract\PropertyInjectorInterface;
 use Psr\Container\ContainerInterface;
 use ReflectionAttribute;
 use ReflectionObject;
@@ -17,13 +18,15 @@ use ReflectionProperty;
  * contiainer using the dependency
  * identifier from the Inject attribute.
  */
-final class PropertyInjector
+final class PropertyInjector implements PropertyInjectorInterface
 {
     public function __construct(private ContainerInterface $container)
     {
     }
 
     /**
+     * {@inheritdoc}
+     *
      * Attempts to inject the dependency into
      * the marked property using the configured
      * dependency id.
