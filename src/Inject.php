@@ -36,6 +36,18 @@ final class Inject
     ) {
     }
 
+    /**
+     * Return the dependency id.
+     *
+     * When the dependency id is not provided as a
+     * constructor argument, the type name of the
+     * property will be returned
+     *
+     * @throws IntersectionTypeException Intersection types are not supported.
+     * @throws UnionTypeException Union types are not supported.
+     * @throws InvalidAttributeConfigurationException Either the property should have
+     * a type hint or the dependency id should be provided.
+     */
     public function getId(ReflectionProperty $reflectionProperty): string
     {
         return $this->dependencyId ?? $this->getTypeName($reflectionProperty);
