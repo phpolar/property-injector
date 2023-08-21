@@ -38,7 +38,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Phpolar\\PropertyInjector\\Inject\u003A\u003AgetId\u0028\u0029",
             "name": "getId",
-            "summary": "",
+            "summary": "Return\u0020the\u0020dependency\u0020id.",
             "url": "classes/Phpolar-PropertyInjector-Inject.html#method_getId"
         },                {
             "fqsen": "\\Phpolar\\PropertyInjector\\PropertyInjector",
