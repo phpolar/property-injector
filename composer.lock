@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "111018e660f89d86617e38fb321e813f",
+    "content-hash": "a7409e81e26b60a32dbc59f1bb2a52db",
     "packages": [
         {
             "name": "phpolar/property-injector-contract",
