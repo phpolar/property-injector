@@ -9,7 +9,10 @@ on:
 
 jobs:
   build:
-
+    if: |
+      ! contains(github.event.pull_request.title, 'bump phpstan') &&
+      ! contains(github.event.pull_request.title, 'bump phpunit') &&
+      ! contains(github.event.pull_request.title, 'bump squizlabs/php_codesniffer')
     runs-on: ubuntu-latest
 
     steps:
@@ -18,7 +21,7 @@ jobs:
     - name: Setup PHP
       uses: shivammathur/setup-php@v2
       with:
-        php-version: 8.2
+        php-version: 8.3
 
     - name: Validate composer.json and composer.lock
       run: composer validate --strict
